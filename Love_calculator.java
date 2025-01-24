@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Love_calculator {
+public class Love_calculator 
+{
 
     public static int calculateLovePercentage(String name1, String name2) 
     {
