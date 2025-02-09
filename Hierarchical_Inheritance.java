@@ -1,19 +1,22 @@
 // In hierarchical inheritance, multiple classes inherit from a single superclass.
-class Animal {
+class Animal 
+{
     void eat() 
 	{
         System.out.println("Eating");
     }
 }
 
-class Dog extends Animal {
+class Dog extends Animal 
+{
     void bark() 
 	{
         System.out.println("Barking");
     }
 }
 
-class Cat extends Animal {
+class Cat extends Animal 
+{
     void meow() 
 	{
         System.out.println("Meowing");
