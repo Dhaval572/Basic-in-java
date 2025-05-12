@@ -2,11 +2,13 @@ class Person
 {
 	String name;
 
+	// Normal constructor
 	Person(String name)
 	{
 		this.name = name;
 	}
 	
+	// Copy constructor 
 	Person(Person other)
 	{
 		this.name = other.name;
