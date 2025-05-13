@@ -1,12 +1,23 @@
 public class WrapperClasses
 {
+	public static int objectToPrimitive(Integer obj)
+	{
+		return obj;
+	}
+
+	public static Integer primitiveToObject(int value)
+	{
+		return value;
+	}
+
 	public static void main(String[] args)
 	{
-		int num = 10;
-		Integer obj = num;
-		int value = obj;
+		Integer obj = 42;
+        int primitive = objectToPrimitive(obj);
+        System.out.println("Primitive: " + primitive);
 
-		System.out.println("Wrapper Object: " + obj);
-        System.out.println("Primitive Value: " + value);
+        int val = 100;
+        Integer boxed = primitiveToObject(val);
+        System.out.println("Object: " + boxed);
 	}
 }

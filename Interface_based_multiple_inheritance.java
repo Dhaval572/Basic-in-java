@@ -12,10 +12,12 @@ interface Domestic
 
 class Dog implements Animal, Domestic 
 {
+    @Override
     public void eat() {
         System.out.println("Eating");
     }
     
+    @Override
     public void pet() 
 	{
         System.out.println("Being petted");

@@ -10,10 +10,12 @@ public class Test_7
 		hs.add(14);  
 		hs.add(15);  
 
-		// for(var ele : hs)
-		// {
-		// 	System.out.print(ele + " ");
-		// }
+		for(var ele : hs)
+		{
+			System.out.print(ele + " ");
+		}
+
+		System.out.println();
 
 		HashMap<Integer, String> hm = new HashMap<>();
 
@@ -22,7 +24,7 @@ public class Test_7
 		hm.put(3, "Name3");
 
 		// Iterate through HashMap
-        for (Integer key : hm.keySet()) {
+        for (var key : hm.keySet()) {
             System.out.println("Key: " + key + ", Value: " + hm.get(key));
         }
 	}
